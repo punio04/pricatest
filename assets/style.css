@@ -1031,15 +1031,15 @@ section.p-movie {
   }
 
   .html5-video-player {
-    height: 114%;
+    height: 114%!important;
   }
 
   .ytp-cued-thumbnail-overlay {
-    height: 114%;
+    height: 114%!important;
   }
 
   .ytp-cued-thumbnail-overlay-image {
-    height: 114%;
+    height: 114%!important;
   }
 
   .store-list {
