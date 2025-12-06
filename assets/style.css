@@ -1016,6 +1016,10 @@ section.p-movie {
     z-index: 1;
   }
 
+  .store-list a {
+    font-size: 20px;
+  }
+
   .splide__arrow svg {
     fill: #000;
     height: 1em;
@@ -1031,15 +1035,15 @@ section.p-movie {
   }
 
   .html5-video-player {
-    height: 114%!important;
+    height: 114% !important;
   }
 
   .ytp-cued-thumbnail-overlay {
-    height: 114%!important;
+    height: 114% !important;
   }
 
   .ytp-cued-thumbnail-overlay-image {
-    height: 114%!important;
+    height: 114% !important;
   }
 
   .store-list {
