@@ -298,16 +298,8 @@ a {
   outline-offset: 3px
 }
 
-.splide__arrow--prev {
-  left: 1em
-}
-
 .splide__arrow--prev svg {
   transform: scaleX(-1)
-}
-
-.splide__arrow--next {
-  right: 1em
 }
 
 .splide.is-focus-in .splide__arrow:focus {
@@ -743,7 +735,7 @@ div#ns-slider1 {
 }
 
 .splide__arrow--prev {
-  left: 6em;
+  left: 5em;
 }
 
 .splide__arrow {
@@ -765,7 +757,7 @@ div#ns-slider1 {
 }
 
 .splide__arrow--next {
-  right: 6em;
+  right: 5em;
 }
 
 section.p-movie {
@@ -795,7 +787,7 @@ section.p-movie {
 
 .ns-pagination {
   position: absolute;
-  bottom: -93%;
+  bottom: -90%;
   left: 50%;
   transform: translateX(-50%);
   display: flex;
@@ -951,7 +943,7 @@ section.p-movie {
 
   .ns-pagination {
     position: absolute;
-    bottom: -93%;
+    bottom: -89.5%;
     left: 50%;
     transform: translateX(-50%);
     display: flex;
@@ -1139,14 +1131,7 @@ section.p-movie {
   }
 
   .ns-pagination {
-    position: absolute;
-    bottom: -90%;
-    left: 50%;
-    transform: translateX(-50%);
-    display: flex;
-    gap: 14px;
-    justify-content: center;
-    padding-top: 20px;
+    bottom: -86%;
   }
 
   .splide__arrow--prev {
@@ -1159,6 +1144,26 @@ section.p-movie {
 
   .splide__arrow--next {
     right: 10%;
+  }
+
+  .offer-frame {
+    top: 56.2%;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .offer-frame {
+    top: 55.5%;
+  }
+
+  .ns-pagination {
+    bottom: -86%;
+  }
+}
+
+@media screen and (max-width: 414px) {
+  .offer-frame {
+    top: 57.5%;
   }
 }
 
@@ -1176,7 +1181,7 @@ section.p-movie {
   }
 
   .ns-pagination {
-    bottom: -90%;
+    bottom: -85.5%;
   }
 
   #ns-slider1 .left,
@@ -1235,6 +1240,11 @@ section.p-movie {
   .splide__arrow {
     top: 97.5%;
   }
+
+  #ns-slider1 .left,
+  #ns-slider1 .right {
+    top: 92.6%;
+  }
 }
 
 @media screen and (max-width: 390px) {
@@ -1278,7 +1288,7 @@ section.p-movie {
   }
 
   .ns-pagination {
-    bottom: -88%;
+    bottom: -83%;
   }
 
   .store-list a {
@@ -1382,7 +1392,7 @@ section.p-movie {
 
 @media screen and (max-width: 320px) {
   .offer-frame {
-    top: 51.2%;
+    top: 52.2%;
   }
 
   #ns-slider1 .right {
@@ -1394,7 +1404,7 @@ section.p-movie {
   }
 
   .ns-pagination {
-    bottom: -83%;
+    bottom: -80%;
   }
 
   .splide__arrow {
@@ -1419,7 +1429,7 @@ section.p-movie {
 
   #ns-slider1 .left,
   #ns-slider1 .right {
-    top: 85%;
+    top: 87%;
   }
 
   .store-list {
