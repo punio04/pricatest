@@ -830,6 +830,34 @@ section.p-movie {
 }
 
 @media screen and (min-width: 1700px) {
+  .store-list a {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #FFF6FB;
+    border: 3px solid #FF94B9;
+    border-radius: 6px;
+    padding: 20px 25px;
+    margin-bottom: 16px;
+    font-size: 38px;
+    font-weight: 700;
+    color: #FF94B9;
+    text-decoration: none;
+    box-shadow: 0 4px 4px rgb(230 230 230);
+    transition: 0.2s;
+  }
+
+  .store-list {
+    width: 90%;
+    max-width: 650px;
+    margin: 0 auto;
+    padding-bottom: 80px;
+  }
+
+  .store-list a::after {
+    width: 30px;
+    height: 30px;
+  }
 
   #ns-slider1 .left,
   #ns-slider1 .right {
@@ -1827,6 +1855,13 @@ section.p-movie {
 }
 
 @media screen and (max-width: 344px) {
+  .store-list {
+    width: 66%;
+    max-width: 364px;
+    margin: 0 auto;
+    padding-bottom: 30px;
+  }
+
   #ns-slider1 .left {
     left: 23%;
   }
