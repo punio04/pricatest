@@ -24,10 +24,9 @@
   <link rel="preload" as="image" href="img/fv.webp" type="image/webp">
   <link href="https://fonts.googleapis.com/css2?family=Rounded+Mplus+1c:wght@400;700&display=swap" rel="stylesheet">
 
-
   <script src="assets/js/splide.min.js"></script>
-    <link rel="stylesheet" href="assets/reset.css">
-    <link rel="stylesheet" href="assets/style.css">
+  <link rel="stylesheet" href="assets/reset.css">
+  <link rel="stylesheet" href="assets/style.css">
 
 
   <!--#include virtual="/common/include/gtm_head.inc" -->
@@ -45,13 +44,14 @@
         <div class="llwInner">
           <!-- fv -->
           <picture>
-            <source srcset="assets/images/fv.webp" type="image/webp">
-            <img src="assets/images/fv.webp" alt="クリスマスの思い出はプリカで撮ろう!!" loading="eager">
+            <img class="pc" src="assets/images/fv_pc.webp" alt="クリスマスの思い出はプリカで撮ろう!!" loading="eager">
+            <img class="sp" src="assets/images/fv_sp.webp" alt="クリスマスの思い出はプリカで撮ろう!!" loading="eager">
           </picture>
           <!-- cta -->
           <div class="overlayArea">
             <picture>
-              <img src="assets/images/cta-bg.png" alt="背景">
+              <img class="pc" src="assets/images/cta-bg_pc.png" alt="背景">
+              <img class="sp" src="assets/images/cta-bg_sp.png" alt="背景">
             </picture>
             <div class="btn-frame">
               <a href="#app" class="overlayItem cta01__btn--01">
@@ -72,7 +72,8 @@
           <!-- macaron pink -->
           <div class="overlayArea">
             <picture>
-              <img src="assets/images/macaronpink.png" alt="マカロンピンク">
+              <img class="pc" src="assets/images/macaronpink_pc.png" alt="マカロンピンク">
+              <img class="sp" src="assets/images/macaronpink_sp.png" alt="マカロンピンク">
             </picture>
             <div class="btn-frame1">
               <a href="#app" class="overlayItem cta01__btn--01">
@@ -86,7 +87,8 @@
           <!-- mint green -->
           <div class="overlayArea">
             <picture>
-              <img src="assets/images/mintgreen.png" alt="ミントグリーン">
+              <img class="pc" src="assets/images/mintgreen_pc.png" alt="ミントグリーン">
+              <img class="sp" src="assets/images/mintgreen_sp.png" alt="ミントグリーン">
             </picture>
             <div class="btn-frame1">
               <a href="#app" class="overlayItem cta01__btn--01">
@@ -99,8 +101,9 @@
           </div>
           <!-- sheet -->
           <picture>
-            <source srcset="assets/images/reason.jpg" type="image/sheet.png">
-            <img src="assets/images/sheet.png" alt="きせかえシート裏表10種類つき！" loading="lazy">
+
+            <img class="pc" src="assets/images/sheet_pc.png" alt="きせかえシート裏表10種類つき！" loading="lazy">
+            <img class="sp" src="assets/images/sheet_sp.png" alt="きせかえシート裏表10種類つき！" loading="lazy">
           </picture>
           <!-- line -->
           <div class="line_frame">
@@ -112,7 +115,8 @@
           <!-- scroll -->
           <div class="overlayArea">
             <picture>
-              <img src="assets/images/scroll.png" alt="実際にLeap式の二重埋没で理想の二重を実現" loading="lazy">
+              <img class="pc" src="assets/images/scroll_pc.png" alt="背景" loading="lazy">
+              <img class="sp" src="assets/images/scroll_sp.png" alt="背景" loading="lazy">
             </picture>
             <div class="offer-frame2">
               <section class="p-movie">
@@ -208,12 +212,12 @@
           </div>
           <!-- buy-title -->
           <picture>
-            <source srcset="assets/images/purchase.png" type="image/webp">
-            <img src="assets/images/purchase.png" alt="ご購入はこちら" loading="lazy">
+            <img class="pc" src="assets/images/purchase_pc.png" alt="ご購入はこちら" loading="lazy">
+            <img class="sp" src="assets/images/purchase_sp.png" alt="ご購入はこちら" loading="lazy">
           </picture>
         </div>
       </article>
-      <!-- buyリンクローカル確認用 -->
+      <!-- buyリンクテストページ確認用 -->
       <div class="store-list" id="app">
         <a href="https://www.amazon.co.jp/dp/B0DWMKBQBW?ref=cm_sw_r_cp_ud_dp_3KHMBS0V3TYCXE9KFT5F_1&ref_=cm_sw_r_cp_ud_dp_3KHMBS0V3TYCXE9KFT5F_1&social_share=cm_sw_r_cp_ud_dp_3KHMBS0V3TYCXE9KFT5F_1&_encoding=UTF8&th=1"
           target="_blank">
@@ -256,8 +260,6 @@
   </div>
   <!-- /.l-base -->
   <script src="/common/js/buylink/app.js#app" type="module"></script>
-
-
   <script>
     document.addEventListener("DOMContentLoaded", function () {
       new Splide('#movieSlider', {
